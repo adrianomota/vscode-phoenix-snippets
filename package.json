@@ -3,7 +3,7 @@
   "displayName": "Phoenix Snippets",
   "description": "Code snippets for Phoenix (Elixir) projects in VS Code (.ex, .html.eex, .html.leex)",
   "version": "1.2.0",
-  "publisher": "jamilabreu",
+  "publisher": "adrianomota",
   "repository": {
     "type": "git",
     "url": "https://github.com/jamilabreu/vscode-phoenix-snippets"
@@ -16,8 +16,7 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [
-      {
+    "snippets": [{
         "language": "elixir",
         "path": "./snippets/elixir.code-snippets"
       },
@@ -32,7 +31,7 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.78.0"
+    "vsce": "^2.10.0"
   },
   "scripts": {
     "deploy": "vsce publish"

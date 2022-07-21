@@ -42,12 +42,12 @@
     ]
   },
   "Phoenix LiveView": {
-    "prefix": "lv",
+    "prefix": "hv",
     "body": [
       "defmodule ${1:App}Web.${2:Page}Live do",
       "\tuse ${1:App}Web, :live_view",
       "\n\tdef render(assigns) do",
-      "\t\t~L\"\"\"",
+      "\t\t~H\"\"\"",
       "\t\t\"\"\"",
       "\tend",
       "\n\tdef mount(_params, _session, socket) do",
@@ -57,12 +57,12 @@
     ]
   },
   "Phoenix LiveComponent": {
-    "prefix": "lc",
+    "prefix": "hc",
     "body": [
       "defmodule ${1:App}Web.${2:Page}Component do",
       "\tuse ${1:App}Web, :live_component",
       "\n\tdef render(assigns) do",
-      "\t\t~L\"\"\"",
+      "\t\t~H\"\"\"",
       "\t\t\"\"\"",
       "\tend",
       "\n\tdef mount(socket) do",
@@ -75,9 +75,9 @@
     "prefix": "vi",
     "body": ["defmodule ${1:App}Web.${2:Page}View do", "\tuse ${1:App}Web, :view$0", "end"]
   },
-  "Sigil L": {
-    "prefix": "sl",
-    "body": ["~L\"\"\"", "\t<div>$0</div>", "\"\"\""]
+  "Sigil H": {
+    "prefix": "h",
+    "body": ["~H\"\"\"", "\t<div>$0</div>", "\"\"\""]
   },
 
   // LiveView Snippets

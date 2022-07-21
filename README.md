@@ -2,7 +2,7 @@
 
 Working on a Phoenix/Elixir project?
 
-Get up and running faster on [VS Code](https://code.visualstudio.com/) with code snippets for Elixir, Phoenix, and Phoenix LiveView (.ex, .html.eex, .html.leex).
+Get up and running faster on [VS Code](https://code.visualstudio.com/) with code snippets for Elixir, Phoenix, and Phoenix LiveView (.ex, .html.eex, .html.heex).
 
 ## Supported languages
 
@@ -51,10 +51,10 @@ Check out [the snippet files on Github](https://github.com/jamilabreu/vscode-pho
 |                             IO.inspect(\_\_\_, label: \"\_\_\_\")                             |     iol      |
 |                                 defmodule \_\_\_Web.\_\_\_ do                                 |     plug     |
 |                            defmodule \_\_\_Web.\_\_\_Controller do                            |      co      |
-|                               defmodule \_\_\_Web.\_\_\_Live do                               |      lv      |
+|                               defmodule \_\_\_Web.\_\_\_Live do                               |      hv      |
 |                            defmodule \_\_\_Web.\_\_\_Component do                             |      lc      |
 |                              defmodule \_\_\_Web.\_\_\_View do"                               |      vi      |
-|                                           ~L\"\"\"                                            |      sl      |
+|                                           ~L\"\"\"                                            |      h      |
 |                                assign(socket, \_\_\_: \_\_\_)                                 |      a       |
 |                        def handle_event(\"\_\_\_\", \_\_\_, socket) do                        |      he      |
 |                            def handle_info(\"\_\_\_\", socket) do                             |      hi      |
