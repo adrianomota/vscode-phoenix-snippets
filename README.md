@@ -54,10 +54,10 @@ Check out [the snippet files on Github](https://github.com/jamilabreu/vscode-pho
 |                               defmodule \_\_\_Web.\_\_\_Live do                               |      hv      |
 |                            defmodule \_\_\_Web.\_\_\_Component do                             |      lc      |
 |                              defmodule \_\_\_Web.\_\_\_View do"                               |      vi      |
-|                                           ~L\"\"\"                                            |      h      |
+|                                           ~H\"\"\"                                            |      h      |
 |                                assign(socket, \_\_\_: \_\_\_)                                 |      a       |
 |                        def handle_event(\"\_\_\_\", \_\_\_, socket) do                        |      he      |
 |                            def handle_info(\"\_\_\_\", socket) do                             |      hi      |
 |                          def handle_params(params, \_url, socket) do                          |      hp      |
-|                              def render(assigns) do\n\t~L\"\"\"                               |      re      |
+|                              def render(assigns) do\n\t~H\"\"\"                               |      re      |
 | def render(assigns) do\n\tPhoenix.View.render(\_\_\_Web.\_\_\_View, \"\_\_\_.html\", assigns) |     ret      |
